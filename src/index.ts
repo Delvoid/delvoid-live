@@ -57,7 +57,7 @@ http
   .createServer((req, res) => {
     if (shouldRedirect(req)) {
       res.writeHead(302, {
-        Location: 'https://github.com/delvoid',
+        Location: 'https://github.com/Delvoid/delvoid-live',
       });
       return res.end();
     }
